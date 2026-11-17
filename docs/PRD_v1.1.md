@@ -19,7 +19,7 @@
 
 ## 3. Định nghĩa “chạy đúng”
 
-Baseline Core: `E-swarm-20261117-21e9`, commit `bd7ea9c`, eval SHA `21e91420f3dc`.
+Baseline Core: `E-swarm-20261117-affa`, commit `fe16a5e`, eval SHA `affa4ddb1807`.
 
 | Metric | Loại | Ngưỡng | Chặn release? | Baseline |
 |---|---|---|---|---:|

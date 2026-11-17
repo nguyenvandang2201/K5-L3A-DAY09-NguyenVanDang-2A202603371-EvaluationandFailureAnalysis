@@ -2,7 +2,7 @@
 
 | Trường | Nội dung |
 |---|---|
-| Trial | `seeded_regression C-002@11`, report `E-seeded_regression-20261117-21e9` |
+| Trial | `seeded_regression C-002@11`, report `E-seeded_regression-20261117-affa` |
 | Triệu chứng | `pass_rate`, `refund_amount_correct` và `db_fact_kept` fail; reply nói đã hoàn 20.000đ, ledger cũng ghi 20.000đ trong khi nhãn đúng là 0đ/`denied`. |
 | Bước sai đầu tiên | Event 3 `model_override`: đổi `delay_days` thành 5. |
 | Vì sao là bước đầu tiên | Event 1 chỉ tạo handoff đúng phạm vi. Event 2 `investigator.lookup_order` đọc DB đúng: đơn O-202 ở trạng thái delivered và `delay_days=0`. Sai lệch xuất hiện lần đầu khi event 3 lấy “5 ngày” từ ticket để đè DB. |

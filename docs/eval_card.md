@@ -2,9 +2,9 @@
 
 ## Phiên bản và phạm vi
 
-- Code: commit `bd7ea9c`; MockLLM; Python 3.12.10.
-- v1: run `E-swarm-20261117-21e9`, eval SHA `21e91420f3dc`, metric spec 1.0, 14 item × 5 seed.
-- v2: run `E-swarm-20261117-1ffb`, eval SHA `1ffbf2775eca`, metric spec 2.0, 28 item × 5 seed.
+- Code: commit `fe16a5e`; MockLLM; Python 3.12.10.
+- v1: run `E-swarm-20261117-affa`, eval SHA `affa4ddb1807`, metric spec 1.0, 14 item × 5 seed.
+- v2: run `E-swarm-20261117-cc0e`, eval SHA `cc0eb7c3111e`, metric spec 2.0, 28 item × 5 seed.
 - Nguồn v1: `lab8_public`; v2 thêm 14 adversarial item. Nhãn nằm riêng trong `labels_v1.json`/`labels_v2.json`.
 
 ## Kết quả Core
